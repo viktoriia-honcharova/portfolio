@@ -2,8 +2,7 @@
   --branding-color: #ffda77;
   --secondary-color: #ffa45b;
   --background: url(../images/background.JPG);
-  --heading-font-family: "Playfair Display", serif;
-  --default-font-family: "Poppins", sans-serif;
+  --default-font-family: "Nunito", sans-serif;
 }
 
 body {
@@ -16,12 +15,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--heading-font-family);
+  font-weight: bold;
 }
 
 h1 {
   font-size: 80px;
-  font-weight: bold;
   line-height: 1.5;
 }
 
@@ -49,13 +47,13 @@ img {
 }
 
 .hero p {
-  font-size: 36px;
+  font-size: 44px;
   font-weight: bold;
+  line-height: 1;
   margin: 0;
 }
 
 .hero h2 {
-  font-family: var(--default-font-family);
   font-weight: normal;
   line-height: 2;
   font-size: 24px;
