@@ -1,6 +1,5 @@
 :root {
-  --branding-color: #ffda77;
-  --secondary-color: #ffa45b;
+  --branding-color: #d4ecdd;
   --background: url(../images/background.JPG);
   --default-font-family: "Nunito", sans-serif;
 }
@@ -76,12 +75,13 @@ img {
 }
 
 .btn-outline {
-  border-radius: 4px;
-  color: var(--branding-color);
+  border-radius: 50px;
+  background: var(--branding-color);
   border: 1px solid var(--branding-color);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  transition: all 200ms ease-in-out;
 }
 
 .project-description {
