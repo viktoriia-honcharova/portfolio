@@ -88,6 +88,25 @@ img {
   padding: 120px 60px;
 }
 
+/* About page */
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+}
+
+.about-section p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.my-photo {
+  border-radius: 15px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
