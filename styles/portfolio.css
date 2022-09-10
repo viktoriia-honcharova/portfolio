@@ -90,7 +90,7 @@ img {
 
 /* About and Work pages */
 .content-container {
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .content-container h1 {
@@ -122,6 +122,17 @@ img {
 
 #work-heading {
   line-height: 1;
+}
+
+/* Header */
+.active {
+  color: #2e0249 !important;
+  font-weight: bold !important;
+}
+
+.nav-item {
+  padding: 0 15px;
+  line-height: 25px;
 }
 
 @media (max-width: 900px) {
